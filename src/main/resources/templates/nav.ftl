@@ -1,5 +1,5 @@
 <nav class="light-pink lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">PanTing</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="/#/" class="brand-logo">PanTing</a>
         <ul class="right hide-on-med-and-down">
             <li><a href="#"><i class="material-icons">search</i></a></li>
             <li><a href="#"><i class="material-icons">person</i></a></li>

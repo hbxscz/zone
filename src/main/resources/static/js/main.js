@@ -17,7 +17,7 @@ $(document).ready(function(){
         console.log(CKEDITOR.instances.textarea1.getData());
         $.ajax({
             type : "post",
-            url : "/post/article",
+            url : "/articles",
             contentType: 'application/json',
             data : JSON.stringify({
                 "title" : $('#title').val(),

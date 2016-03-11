@@ -31,7 +31,7 @@ public class ZoneApplication {
         return "index";
     }
 
-    @RequestMapping(value = "/post/article", method = RequestMethod.POST)
+    @RequestMapping(value = "/articles", method = RequestMethod.POST)
     String postArticle(@RequestBody Post post) {
         System.out.println(new Gson().toJson(post));
         repository.save(post);
