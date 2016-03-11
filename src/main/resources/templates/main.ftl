@@ -26,7 +26,7 @@
                                     <span class="card-title">${post.title}</span>
                                 </div>
                                 <div class="card-content">
-                                    <a href="articles/${post.id}">${post.content?substring(0,10)}...</a>
+                                    <a href="articles/${post.id}" target="_blank">${post.content?substring(0,10)}...</a>
                                 </div>
                                 <div class="card-action">
                                     <div class="col m4">

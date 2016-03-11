@@ -43,4 +43,9 @@ public class ZoneApplication {
         model.put("post", this.repository.findById(articlesId));
         return "post/article-home";
     }
+
+    @RequestMapping(value = "/articles/{articlesId}.json", method=RequestMethod.GET)
+    public @ResponseBody Post getArticlesJSON(@PathVariable String articlesId) {
+        return this.repository.findById(articlesId);
+    }
 }
