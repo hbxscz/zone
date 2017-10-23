@@ -13,7 +13,7 @@
 <script src="${jsPath}/init.js"></script>
 <script src="plugin/ckeditor/ckeditor.js"></script>
 <script src="${jsPath}/main.js"></script>
-<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+<script src="https://unpkg.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
 
 </body>
 </html>
